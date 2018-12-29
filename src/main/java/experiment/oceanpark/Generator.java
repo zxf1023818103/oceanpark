@@ -1,6 +1,8 @@
 package experiment.oceanpark;
 
 import com.sun.istack.internal.NotNull;
+import experiment.oceanpark.animal.bird.Canary;
+import experiment.oceanpark.animal.bird.Parrot;
 import experiment.oceanpark.animal.fish.ClownFish;
 import experiment.oceanpark.animal.fish.FlyingFish;
 import experiment.oceanpark.animal.fish.Shark;
@@ -20,7 +22,7 @@ import java.util.Scanner;
 
 public final class Generator {
 
-    private static List<String> animalNames, staffNames, interactivityNames, performanceNames;
+    private static List<String> animalNames, staffNames, interactivityNames, performanceNames, consumerNames;
 
     private static final String ANIMAL_NAME_FILE = "animal_names.txt";
 
@@ -29,6 +31,8 @@ public final class Generator {
     private static final String INTERACTIVITY_NAME_FILE = "interactivity_names.txt";
 
     private static final String PERFORMANCE_NAME_FILE = "performance_names.txt";
+
+    private static final String CONSUMER_NAME_FILE = "consumer_names.txt";
 
     private static final String BASE_DIR = "/";
 
@@ -48,6 +52,7 @@ public final class Generator {
         staffNames = loadNames(STAFF_NAME_FILE);
         interactivityNames = loadNames(INTERACTIVITY_NAME_FILE);
         performanceNames = loadNames(PERFORMANCE_NAME_FILE);
+        consumerNames = loadNames(CONSUMER_NAME_FILE);
     }
 
     public static Interactivity generateInteractivity() {
@@ -96,6 +101,8 @@ public final class Generator {
             case SEA_LION: animal = new SeaLion(); break;
             case CROCODILE: animal = new Crocodile(); break;
             case LIZARD: animal = new Lizard(); break;
+            case CANARY: animal = new Canary(); break;
+            case PARROT: animal = new Parrot(); break;
             default: return null;
         }
         animal.setAge(random.nextInt(9) + 1);
@@ -105,7 +112,14 @@ public final class Generator {
         animal.setInteractivities(generateInteractivities(random.nextInt(3) + 1));
         animal.setPerformances(generatePerformances(random.nextInt(3) + 1));
         animal.setTrainer(generateTrainer());
+        animal.setScore(random.nextInt(100));
         return animal;
+    }
+
+    public static Consumer generateConsumer(boolean isVip) {
+        String name = consumerNames.get(random.nextInt(consumerNames.size()));
+        boolean gender = random.nextInt() % 2 == 0;
+        return isVip ? new VipConsumer(name, gender, random.nextInt(1000) + 200) : new Consumer(name, gender);
     }
 
 }

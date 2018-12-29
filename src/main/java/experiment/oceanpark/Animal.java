@@ -1,12 +1,5 @@
 package experiment.oceanpark;
 
-import experiment.oceanpark.animal.fish.ClownFish;
-import experiment.oceanpark.animal.fish.FlyingFish;
-import experiment.oceanpark.animal.fish.Shark;
-import experiment.oceanpark.animal.oceanmammal.Dolphin;
-import experiment.oceanpark.animal.oceanmammal.SeaLion;
-import experiment.oceanpark.animal.oceanmammal.Seal;
-import experiment.oceanpark.animal.reptile.Crocodile;
 import experiment.oceanpark.program.Interactivity;
 import experiment.oceanpark.program.Performance;
 import experiment.oceanpark.staff.Trainer;
@@ -16,7 +9,7 @@ import java.util.List;
 /**
  * 动物类
  */
-public abstract class Animal extends BaseObject {
+public abstract class Animal extends Actor {
 
     /**
      * 昵称
@@ -65,27 +58,6 @@ public abstract class Animal extends BaseObject {
     }
 
     public Animal() {
-    }
-
-    public String getKlass() {
-        String klass;
-        if (this instanceof ClownFish)
-            klass = "小丑鱼";
-        else if (this instanceof FlyingFish)
-            klass = "飞鱼";
-        else if (this instanceof Shark)
-            klass = "鲨鱼";
-        else if (this instanceof Dolphin)
-            klass = "海豚";
-        else if (this instanceof Seal)
-            klass = "海豹";
-        else if (this instanceof SeaLion)
-            klass = "海狮";
-        else if (this instanceof Crocodile)
-            klass = "鳄鱼";
-        else
-            klass = "蜥蜴";
-        return klass;
     }
 
     @Override

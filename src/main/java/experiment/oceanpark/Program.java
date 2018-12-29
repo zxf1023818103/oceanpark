@@ -1,6 +1,6 @@
 package experiment.oceanpark;
 
-public abstract class Program extends BaseObject {
+public abstract class Program extends Actor {
     private String name;
 
     @Override
