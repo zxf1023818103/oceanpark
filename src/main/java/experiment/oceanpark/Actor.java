@@ -14,6 +14,7 @@ import experiment.oceanpark.animal.oceanmammal.Seal;
 import experiment.oceanpark.animal.reptile.Crocodile;
 import experiment.oceanpark.animal.reptile.Lizard;
 import experiment.oceanpark.other.Airship;
+import javafx.scene.image.Image;
 
 import java.io.Serializable;
 
@@ -33,7 +34,7 @@ public abstract class Actor implements Comparable<Actor>, Serializable {
         return this.id;
     }
 
-    public void setId(int id) {
+    protected void setId(int id) {
         this.id = id;
     }
 
@@ -74,20 +75,24 @@ public abstract class Actor implements Comparable<Actor>, Serializable {
         return klass;
     }
 
-    private static int getType(Actor actor) {
-        if (actor instanceof CanFly)
+    private int getOrder() {
+        if (this instanceof CanFly)
             return 3;
-        else if (actor instanceof CanSwim)
+        else if (this instanceof CanSwim)
             return  2;
         else return  1;
     }
 
     @Override
     public int compareTo(Actor o) {
-        int thisType = getType(this);
-        int oType = getType(o);
+        int thisType = getOrder();
+        int oType = o.getOrder();
         if (thisType == oType)
             return o.score - score;
         else return thisType - oType;
+    }
+
+    public Image getImage() {
+        return new Image(getClass().getResourceAsStream("/actors/" + getClass().getSimpleName() + ".jpg"));
     }
 }
