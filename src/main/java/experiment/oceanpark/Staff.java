@@ -1,6 +1,6 @@
 package experiment.oceanpark;
 
-public abstract class Staff extends BaseObject {
+public abstract class Staff extends Actor {
     private String name;
     @Override
     public String toString() {

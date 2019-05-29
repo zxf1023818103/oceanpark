@@ -30,7 +30,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>experiment.oceanpark.Main</mainClass>
+                                    <mainClass>experiment.oceanpark.gui.Main</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>

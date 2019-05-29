@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
+<?import java.lang.*?>
+
+<StackPane fx:id="stackPanel" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="experiment.oceanpark.gui.controller.LoginController" maxHeight="400" maxWidth="600">
+
+    <!-- 背景图片页面 -->
+    <ImageView fx:id="backgroundView">
+        <Image url="@background.jpg"/>
+    </ImageView>
+
+    <!-- 会员登录页面 -->
+    <VBox alignment="CENTER" fx:id="loginPanel">
+        <HBox alignment="CENTER">
+            <GridPane>
+                <Label GridPane.columnIndex="1" GridPane.rowIndex="1" style="-fx-text-fill: #FFFFFF">会员号</Label>
+                <TextField fx:id="vipIdTextField" onKeyReleased="#validateVipId" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+                <Button fx:id="vipLoginButton" disable="true" onMouseClicked="#vipLogin" GridPane.columnIndex="1" GridPane.rowIndex="2">登录</Button>
+                <Button fx:id="guestLoginButton" onMouseClicked="#gotoGuestLogin" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.halignment="RIGHT">我是游客</Button>
+                <Label fx:id="loginErrorMessageLabel" style="-fx-text-fill: #FF0000;" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.columnSpan="2"/>
+            </GridPane>
+        </HBox>
+    </VBox>
+
+    <!-- 游客登录页面 -->
+    <VBox alignment="CENTER" fx:id="guestLoginPanel" visible="false">
+        <HBox alignment="CENTER">
+            <GridPane>
+                <Label GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.columnSpan="2" style="-fx-text-fill: #FFFFFF">请输入您的姓名：</Label>
+                <TextField fx:id="guestNameField" GridPane.columnIndex="1" GridPane.rowIndex="2" onKeyReleased="#validateGuestName"/>
+                <fx:define>
+                    <ToggleGroup fx:id="genderGroup"/>
+                </fx:define>
+                <HBox GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <RadioButton fx:id="maleRadioButton" toggleGroup="$genderGroup" userData="true" style="-fx-text-fill: #FFFFFF" selected="true">先生</RadioButton>
+                    <RadioButton fx:id="femaleRadioButton" toggleGroup="$genderGroup" userData="false" style="-fx-text-fill: #FFFFFF">女士</RadioButton>
+                </HBox>
+                <Button GridPane.columnIndex="2" GridPane.rowIndex="3" onMouseClicked="#guestLogin" disable="true">确认</Button>
+                <Button GridPane.columnIndex="1" GridPane.rowIndex="3" onMouseClicked="#locateBack">返回</Button>
+                <Label fx:id="guestLoginErrorMessageLabel" style="-fx-text-fill: #FF0000;" GridPane.columnIndex="1" GridPane.rowIndex="4" GridPane.columnSpan="2"/>
+            </GridPane>
+        </HBox>
+    </VBox>
+
+    <!-- 购票页面 -->
+    <VBox alignment="CENTER" fx:id="checkoutPanel" visible="false">
+        <HBox alignment="CENTER">
+            <GridPane>
+                <Label GridPane.columnIndex="1" GridPane.rowIndex="1" style="-fx-text-fill: #FFFFFF">购票数量</Label>
+                <ComboBox fx:id="ticketNumberBox" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <Integer fx:value="1"/>
+                            <Integer fx:value="2"/>
+                            <Integer fx:value="3"/>
+                            <Integer fx:value="4"/>
+                        </FXCollections>
+                    </items>
+                </ComboBox>
+                <Button fx:id="purchaseButton" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.halignment="LEFT" onMouseClicked="#purchase">确认</Button>
+                <Button fx:id="gotoRechargeButton" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.halignment="LEFT" onMouseClicked="#gotoRecharge">充值</Button>
+                <Button GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.halignment="LEFT" onMouseClicked="#locateBack">返回</Button>
+                <Label fx:id="checkoutErrorMessageLabel" GridPane.columnIndex="1" GridPane.rowIndex="4" GridPane.columnSpan="2" style="-fx-text-fill: #FF0000"/>
+            </GridPane>
+        </HBox>
+    </VBox>
+
+    <!-- 充值页面 -->
+    <VBox alignment="CENTER" fx:id="rechargePanel" visible="false">
+        <HBox alignment="CENTER">
+            <GridPane>
+                <Label GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.halignment="RIGHT" style="-fx-text-fill: #FFFFFF">充值金额</Label>
+                <TextField fx:id="rechargeAmountField" GridPane.columnIndex="2" GridPane.rowIndex="1" onKeyReleased="#validateRechargeAmount"/>
+                <Label GridPane.columnIndex="3" GridPane.rowIndex="1" GridPane.halignment="LEFT" style="-fx-text-fill: #FFFFFF">元</Label>
+                <Button fx:id="rechargeButton" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.halignment="RIGHT" onMouseClicked="#recharge">确定</Button>
+                <Button GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.halignment="LEFT" onMouseClicked="#locateBack">返回</Button>
+                <Label fx:id="rechargeErrorMessageLabel" GridPane.columnIndex="1" GridPane.rowIndex="4" GridPane.columnSpan="3" style="-fx-text-fill: #FF0000"/>
+            </GridPane>
+        </HBox>
+    </VBox>
+
+    <!-- 巡游动画放映页面 -->
+    <BorderPane fx:id="animationPanel" visible="false">
+        <ImageView fx:id="actorImageView" visible="false"/>
+    </BorderPane>
+
+    <!-- 喂食页面 -->
+    <VBox fx:id="feedingPanel" alignment="CENTER" visible="false">
+        <Label>节目单文件为当前目录的programs.txt</Label>
+        <HBox alignment="CENTER">
+            <Label>喂食</Label>
+            <TextField fx:id="feedingField"/>
+            <Button fx:id="feedingButton" onMouseClicked="#feed">确认</Button>
+        </HBox>
+        <Label fx:id="feedingErrorMessageLabel" style="-fx-text-fill: #FF0000"/>
+        <Label fx:id="feedingInfoMessageLabel"/>
+    </VBox>
+
+    <!-- 评分页面 -->
+    <VBox fx:id="judgePanel" alignment="CENTER" visible="false">
+        <Label fx:id="animalNameLabel"/>
+        <HBox alignment="CENTER">
+            <Label>分数</Label>
+            <HBox>
+                <ComboBox fx:id="scoreBox">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <Integer fx:value="1"/>
+                            <Integer fx:value="2"/>
+                            <Integer fx:value="3"/>
+                            <Integer fx:value="4"/>
+                            <Integer fx:value="5"/>
+                            <Integer fx:value="6"/>
+                            <Integer fx:value="7"/>
+                            <Integer fx:value="8"/>
+                            <Integer fx:value="9"/>
+                            <Integer fx:value="10"/>
+                        </FXCollections>
+                    </items>
+                </ComboBox>
+                <Button onMouseClicked="#submitScoreAndLoadNext">确认</Button>
+            </HBox>
+        </HBox>
+        <Label fx:id="judgeErrorMessageLabel" style="-fx-text-fill: #FF0000"/>
+        <ImageView fx:id="animalImageView"/>
+    </VBox>
+
+    <!-- 结束页面 -->
+    <HBox fx:id="endingPanel" alignment="CENTER" visible="false">
+        <VBox alignment="CENTER">
+            <Label>表演结束，欢迎下次光临。</Label>
+        </VBox>
+    </HBox>
+
+</StackPane>
