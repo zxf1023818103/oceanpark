@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fbc005b-8370-4975-a02f-3d1610f1b17f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/oceanpark.eml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/oceanpark.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oceanpark.eml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Login.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/actors/Airship.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/actors/Canary.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/actors/ClownFish.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/actors/Crocodile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/actors/Dolphin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/actors/FlyingFish.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/actors/Lizard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/actors/Parrot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/actors/SeaLion.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/actors/Seal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/actors/Shark.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/actors/Superman.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/oceanpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oceanpark.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oceanpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oceanpark.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/experiment/oceanpark/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/experiment/oceanpark/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/experiment/oceanpark/ActorReaderWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/experiment/oceanpark/ActorReaderWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/experiment/oceanpark/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oceanpark.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/experiment/oceanpark/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/experiment/oceanpark/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/controller/LoginController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,28 +17,53 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="oceanpark" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/controller/LoginController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Login.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-770">
-              <caret line="272" column="23" lean-forward="true" selection-start-line="272" selection-start-column="23" selection-end-line="272" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-944">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/Generator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="567">
+              <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12">
+              <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4821#4822#0" expanded="true" />
+                <element signature="e#4862#4863#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
+            <state relative-caret-position="1794">
               <caret line="90" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,13 +80,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/Actor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="1403">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/other/Airship.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/other/Superman.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/animal/fish/Shark.java" />
         <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/program/Performance.java" />
         <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/ObjectLoader.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data.txt" />
@@ -146,7 +179,6 @@
         <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/other/Superman.java" />
         <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/VipConsumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/Generator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/consumer_names.txt" />
         <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/animal/Fish.java" />
         <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/animal/OceanMammal.java" />
@@ -162,12 +194,14 @@
         <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/Login.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/view/Login.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Checkout.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/Actor.java" />
         <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/ActorReaderWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Login.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/Actor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/Generator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Login.fxml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -190,19 +224,15 @@
           <item name="oceanpark" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="oceanpark" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1942" />
-    <option name="height" value="2092" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -212,7 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,79 +249,21 @@
               <item name="oceanpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="oceanpark" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="oceanpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oceanpark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oceanpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oceanpark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oceanpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oceanpark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oceanpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oceanpark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oceanpark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oceanpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oceanpark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oceanpark" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oceanpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oceanpark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oceanpark" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oceanpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oceanpark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oceanpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oceanpark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="actors" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="LombokPluginEnabledInProject" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546524740257" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551863209540" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -302,7 +273,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -424,7 +395,13 @@
       <workItem from="1546051420208" duration="5115000" />
       <workItem from="1546341273332" duration="878000" />
       <workItem from="1546342457776" duration="57486000" />
-      <workItem from="1546511669244" duration="11783000" />
+      <workItem from="1546511669244" duration="16216000" />
+      <workItem from="1546587158372" duration="512000" />
+      <workItem from="1546588182794" duration="6163000" />
+      <workItem from="1546601792741" duration="5183000" />
+      <workItem from="1546658212252" duration="170000" />
+      <workItem from="1551858519593" duration="755000" />
+      <workItem from="1559124621595" duration="1473000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0">
       <created>1546059023814</created>
@@ -433,18 +410,32 @@
       <option name="project" value="LOCAL" />
       <updated>1546059023814</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v3.0">
+      <created>1546524839787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546524839787</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update .gitignore.">
+      <created>1559125269020</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559125269020</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172209000" />
+    <option name="totallyTimeSpent" value="190898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888393" visible="true" weight="0.15893333" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977029" visible="true" weight="0.1696" />
+      <window_info id="Structure" order="1" sideWeight="0.5022971" side_tool="true" weight="0.1696" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -452,7 +443,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5011161" side_tool="true" weight="0.19893333" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328125" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49866667" weight="0.27232143" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49866667" weight="0.27120537" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39620537" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,7 +460,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32106668" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32053334" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -512,27 +503,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2.0" />
+    <MESSAGE value="v3.0" />
+    <MESSAGE value="update .gitignore." />
+    <option name="LAST_COMMIT_MESSAGE" value="update .gitignore." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/staff_names.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/animal/fish/Shark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/animal/oceanmammal/Dolphin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -619,30 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/other/Airship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/other/Superman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -654,13 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="122" column="5" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -823,16 +771,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/actors/Lizard.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -859,20 +798,20 @@
           <ID>JAVA</ID>
           <OriginalElement>experiment.oceanpark</OriginalElement>
           <nodes>
-            <node x="133.18181818181822" y="637.0">experiment.oceanpark.other</node>
-            <node x="23.5" y="556.0">experiment.oceanpark.program</node>
-            <node x="188.50000000000003" y="220.0">experiment.oceanpark.Animal</node>
-            <node x="698.5" y="324.0">experiment.oceanpark.Staff</node>
-            <node x="10.5" y="324.0">experiment.oceanpark.Program</node>
+            <node x="609.3181818181818" y="637.0">experiment.oceanpark.other</node>
+            <node x="701.0" y="556.0">experiment.oceanpark.program</node>
+            <node x="178.0" y="220.0">experiment.oceanpark.Animal</node>
+            <node x="0.0" y="324.0">experiment.oceanpark.Staff</node>
+            <node x="688.0" y="324.0">experiment.oceanpark.Program</node>
             <node x="851.0" y="713.0">experiment.oceanpark.ActorReaderWriter</node>
-            <node x="167.50000000000003" y="0.0">experiment.oceanpark.Actor</node>
+            <node x="501.0" y="0.0">experiment.oceanpark.Actor</node>
             <node x="0.0" y="713.0">experiment.oceanpark.Generator</node>
             <node x="0.0" y="1250.0">experiment.oceanpark.gui</node>
-            <node x="373.5" y="556.0">experiment.oceanpark.animal</node>
+            <node x="363.0" y="556.0">experiment.oceanpark.animal</node>
             <node x="686.0" y="713.0">experiment.oceanpark.AnimalEnum</node>
-            <node x="555.4318181818182" y="637.0">experiment.oceanpark.staff</node>
-            <node x="398.0" y="713.0">experiment.oceanpark.Consumer</node>
+            <node x="194.0681818181818" y="637.0">experiment.oceanpark.staff</node>
             <node x="378.0" y="935.0">experiment.oceanpark.VipConsumer</node>
+            <node x="398.0" y="713.0">experiment.oceanpark.Consumer</node>
           </nodes>
           <notes />
           <edges>
@@ -881,48 +820,48 @@
               <point x="0.0" y="86.0" />
             </edge>
             <edge source="experiment.oceanpark.staff" target="experiment.oceanpark.Staff">
-              <point x="26.75" y="-15.5" />
-              <point x="635.6818181818182" y="612.0" />
-              <point x="777.5" y="612.0" />
+              <point x="-26.75" y="-15.5" />
+              <point x="220.8181818181818" y="612.0" />
+              <point x="79.0" y="612.0" />
               <point x="0.0" y="39.0" />
             </edge>
             <edge source="experiment.oceanpark.staff" target="experiment.oceanpark.animal">
-              <point x="-26.75" y="-15.5" />
-              <point x="582.1818181818182" y="612.0" />
-              <point x="463.5" y="612.0" />
-              <point x="30.0" y="15.5" />
+              <point x="26.75" y="-15.5" />
+              <point x="274.3181818181818" y="612.0" />
+              <point x="393.0" y="612.0" />
+              <point x="-30.0" y="15.5" />
             </edge>
             <edge source="experiment.oceanpark.other" target="experiment.oceanpark.animal">
-              <point x="28.5" y="-15.5" />
-              <point x="218.68181818181822" y="612.0" />
-              <point x="403.5" y="612.0" />
-              <point x="-30.0" y="15.5" />
+              <point x="-28.5" y="-15.5" />
+              <point x="637.8181818181818" y="612.0" />
+              <point x="453.0" y="612.0" />
+              <point x="30.0" y="15.5" />
             </edge>
             <edge source="experiment.oceanpark.Animal" target="experiment.oceanpark.Actor">
               <point x="0.0" y="-143.0" />
-              <point x="433.5" y="200.0" />
-              <point x="285.0" y="200.0" />
-              <point x="23.5" y="85.0" />
+              <point x="423.0" y="200.0" />
+              <point x="571.5" y="200.0" />
+              <point x="-23.5" y="85.0" />
             </edge>
             <edge source="experiment.oceanpark.Staff" target="experiment.oceanpark.Actor">
               <point x="0.0" y="-39.0" />
-              <point x="777.5" y="190.0" />
-              <point x="332.0" y="190.0" />
-              <point x="70.5" y="85.0" />
+              <point x="79.0" y="190.0" />
+              <point x="524.5" y="190.0" />
+              <point x="-70.5" y="85.0" />
             </edge>
             <edge source="experiment.oceanpark.other" target="experiment.oceanpark.Actor">
-              <point x="-28.5" y="-15.5" />
-              <point x="161.68181818181822" y="612.0" />
-              <point x="0.0" y="612.0" />
-              <point x="0.0" y="190.0" />
-              <point x="191.00000000000003" y="190.0" />
-              <point x="-70.5" y="85.0" />
+              <point x="28.5" y="-15.5" />
+              <point x="694.8181818181818" y="612.0" />
+              <point x="856.5" y="612.0" />
+              <point x="856.5" y="190.0" />
+              <point x="665.5" y="190.0" />
+              <point x="70.5" y="85.0" />
             </edge>
             <edge source="experiment.oceanpark.Program" target="experiment.oceanpark.Actor">
               <point x="0.0" y="-39.0" />
-              <point x="89.5" y="200.0" />
-              <point x="238.00000000000003" y="200.0" />
-              <point x="-23.5" y="85.0" />
+              <point x="767.0" y="200.0" />
+              <point x="618.5" y="200.0" />
+              <point x="23.5" y="85.0" />
             </edge>
             <edge source="experiment.oceanpark.program" target="experiment.oceanpark.Program">
               <point x="0.0" y="-15.5" />
@@ -933,9 +872,9 @@
               <point x="0.0" y="143.0" />
             </edge>
           </edges>
-          <settings layout="Balloon" zoom="0.6364335126825519" x="572.0" y="640.5" />
+          <settings layout="Balloon" zoom="0.8364335126825521" x="251.0" y="238.0" />
           <SelectedNodes>
-            <node>experiment.oceanpark.staff</node>
+            <node>experiment.oceanpark.Animal</node>
           </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
@@ -949,52 +888,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programs.txt">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/javafx-src.zip!/javafx/event/EventHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Login.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="n#ImageView#0;n#StackPane#0;n#!!top" />
-            <element signature="n#VBox#0;n#StackPane#0;n#!!top" />
-            <element signature="n#VBox#1;n#StackPane#0;n#!!top" />
-            <element signature="n#VBox#2;n#StackPane#0;n#!!top" />
-            <element signature="n#VBox#3;n#StackPane#0;n#!!top" />
-            <element signature="n#BorderPane#0;n#StackPane#0;n#!!top" />
-            <element signature="n#VBox#4;n#StackPane#0;n#!!top" />
-            <element signature="n#VBox#5;n#StackPane#0;n#!!top" />
-            <element signature="n#HBox#0;n#StackPane#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-770">
-          <caret line="272" column="23" lean-forward="true" selection-start-line="272" selection-start-column="23" selection-end-line="272" selection-end-column="23" />
+        <state relative-caret-position="240">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/Main.java">
+    <entry file="file://$PROJECT_DIR$/programs.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="224">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
+        <state relative-caret-position="1794">
           <caret line="90" selection-start-line="90" selection-end-line="90" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1004,11 +918,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="1403">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/other/Airship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/other/Superman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/gui/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4821#4822#0" expanded="true" />
+            <element signature="e#4862#4863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/oceanpark/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-944">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

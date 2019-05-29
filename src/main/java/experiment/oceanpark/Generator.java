@@ -11,6 +11,7 @@ import experiment.oceanpark.animal.oceanmammal.SeaLion;
 import experiment.oceanpark.animal.oceanmammal.Seal;
 import experiment.oceanpark.animal.reptile.Crocodile;
 import experiment.oceanpark.animal.reptile.Lizard;
+import experiment.oceanpark.gui.Main;
 import experiment.oceanpark.program.Interactivity;
 import experiment.oceanpark.program.Performance;
 import experiment.oceanpark.staff.Trainer;

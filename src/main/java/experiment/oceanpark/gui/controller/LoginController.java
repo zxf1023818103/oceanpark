@@ -13,7 +13,6 @@ import javafx.scene.image.*;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
-import javafx.stage.Stage;
 import javafx.util.Duration;
 
 import java.io.FileNotFoundException;
@@ -272,26 +271,30 @@ public class LoginController {
 
     private Iterator<Actor> iterator = null;
 
-    private void play() {
+    private void playNext() {
         if (iterator == null)
             iterator = actors.iterator();
         if (iterator.hasNext()) {
+            /// 获取下一个 Actor
             Actor actor = iterator.next();
+            /// 设置下一个图像
             actorImageView.setImage(actor.getImage());
+            actorImageView.xProperty().setValue(-actorImageView.getFitWidth());
+            actorImageView.setVisible(true);
+            /// 初始化动画
             KeyValue keyValue = new KeyValue(actorImageView.xProperty(), stackPanel.getWidth());
             KeyFrame keyFrame = new KeyFrame(new Duration(2000), keyValue);
             Timeline timeline = new Timeline(keyFrame);
             timeline.setOnFinished(e -> {
                 if (iterator.hasNext())
-                    play();
+                    playNext();
                 else {
-                    actors.removeIf(actor1 -> !(actor1 instanceof Animal));
+                    actors.removeIf(item -> !(item instanceof Animal));
                     //backgroundView.setVisible(true);
                     locateTo(feedingPanel);
                 }
             });
-            actorImageView.xProperty().setValue(-actorImageView.getFitWidth());
-            actorImageView.setVisible(true);
+
             timeline.play();
         }
     }
@@ -303,7 +306,7 @@ public class LoginController {
 
         actors.add(0, new Airship());
         actors.add(1, new Superman());
-        play();
+        playNext();
     }
 
     private Set<Integer> feedAnimalIdSet = new HashSet<>();
